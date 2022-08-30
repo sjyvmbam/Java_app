@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="LagerApp:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>LagerApp</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="LagerApp-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="LagerApp:war exploded" />
+    </root>
+  </artifact>
+</component>

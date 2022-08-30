@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+    <servlet>
+        <servlet-name>MedikamentController</servlet-name>
+        <display-name>MedikamentController</display-name>
+        <servlet-class>com.example.lagerapp.controller.MedikamentController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MedikamentController</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+</web-app>
+
+
+<!--
+
+ <servlet>
+     <resources mapping="/webjars/**" location="/webjars/"/>
+
+        <servlet-name>helloServlet</servlet-name>
+        <display-name>helloServlet</display-name>
+        <servlet-class>com.example.lagerapp.controller.HelloServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>helloServlet</servlet-name>
+        <url-pattern>/hello-servlet</url-pattern>
+    </servlet-mapping>
+-->
